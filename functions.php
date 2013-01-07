@@ -1,24 +1,24 @@
 <?php
-	/* Author: 		chive@github
-					Kim Thoenen
-					kim@smuzey.ch
+	/* Author:	chive@github
+			Kim Thoenen
+			kim@smuzey.ch
 				
-					smuzey Web Design & Development
-					www.smuzey.ch
+			smuzey Web Design & Development
+			www.smuzey.ch
 				
 	 Last Change: 	07. January 13	*/
 	
 	// Please enter your API Key here
 	// You can get it from here: https://www.pipelinedeals.com/admin/api (API_KEY)
-    $api_key = '';
+	$api_key = '';
 	
 	
 	/* API Adapter Function / Shorthand version
 	     Arguments
-		   $res			The wanted resource name, e.g.: "deals" or "admin/lead_statuses"
+		   $res		The wanted resource name, e.g.: "deals" or "admin/lead_statuses"
 		   $postdata	For POST requests, e.g.: "deal[name]=Kinda a big deal"
 		 Return value
-		   array		JSON decoded PHP array, ready to use in your application
+		   array	JSON decoded PHP array, ready to use in your application
 	*/
 		
 	function getData ($res,$postdata = false) {
@@ -29,10 +29,10 @@
 	
 	/* API Adapter Function / URL version
 	     Arguments
-		   $url			Whole URL except the API_KEY part, e.g.: "https://api.pipelinedeals.com/api/v3/deals.json"
+		   $url		Whole URL except the API_KEY part, e.g.: "https://api.pipelinedeals.com/api/v3/deals.json"
 		   $postdata	For POST requests, e.g.: "deal[name]=Kinda a big deal"
 		 Return value
-		   array		JSON decoded PHP array, ready to use in your application
+		   array	JSON decoded PHP array, ready to use in your application
 	*/
 	
 	function getDataURL ($url,$postdata = false) {
