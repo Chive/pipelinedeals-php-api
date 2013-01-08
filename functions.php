@@ -5,10 +5,9 @@
 				
 			smuzey Web Design & Development
 			www.smuzey.ch
-				
-	 Last Change: 	07. January 13	*/
+	*/
 	
-	// Please enter your API Key here
+	// Please set your API Key here
 	// You can get it from here: https://www.pipelinedeals.com/admin/api (API_KEY)
 	$api_key = '';
 	
