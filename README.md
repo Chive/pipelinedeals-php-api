@@ -36,7 +36,7 @@ Usage
 <h3>Do a Request to Pipelinedeals</h3>
 <code>$result = $pda->doRequest(resource, conditions, page, request-data)</code>
 <ul>
-	<li>resource: the wanted Pipelinedeals resource. E.g.: 'people', see the Pipelinedeals-API-Documentation for further information ([http://www.pipelinedeals.com/developers/api](http://www.pipelinedeals.com/developers/api))</li>
+	<li>resource: the wanted Pipelinedeals resource. E.g.: 'people', see the Pipelinedeals-API-Documentation for further information (<a href="http://www.pipelinedeals.com/developers/api">http://www.pipelinedeals.com/developers/api</a>)</li>
 	<li>conditions (optional): Conditions in key=>value array, e.g.: "array('[deal_created][from_date]'=>'2011-01-01','[deal_created][to_date]' => '2012-01-01')"</li>
 	<li>page (optional): The wanted page as integer, e.g.: "2"</li>
 	<li>request-data (optional): Needed for requests which send data with themselves, for e.g. creating a deal.</li>
