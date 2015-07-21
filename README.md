@@ -1,5 +1,6 @@
 pipelinedeals-php-api
 =====================
+> **Please note that I am not longer continuing active development since I've stopped using PipelineDeals and switched from PHP to Python. I am more than happy to accept pull requests though!**
 
 Table of Contents
 -----------------
@@ -49,5 +50,3 @@ Examples
 	$result = $pda->doRequest("people");
 
 That's only two lines - see how easy that is?
-
-<i>I will add more examples in the near future.</i>
