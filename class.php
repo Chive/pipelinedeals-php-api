@@ -58,9 +58,10 @@
 			curl_setopt($ch, CURLOPT_URL, $this->request_url);
 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 			
-			if ($this->method == "post" OR $this->method == "put") {
+			if ($this->method == "post" OR $this->method == "put" OR $this->method == "delete") {
 				if ($this->method == "post") { curl_setopt($ch, CURLOPT_POST, 1); }
 				else if ($this->method == "put") { curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT"); }
+				else if ($this->method == "delete") { curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "DELETE"); }
 
 				curl_setopt($ch, CURLOPT_POSTFIELDS, $this->request_data); 
 			}
